@@ -13,6 +13,14 @@ article, aside, ol, ul, li, h1, h6 {
 	box-sizing: border-box;
 }
 
+@media(min-width:1500px){
+    #main-nav ul{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
 #main-nav {
 	background-color: green;
 	margin: 25px auto 0px;
@@ -25,7 +33,7 @@ article, aside, ol, ul, li, h1, h6 {
 }
 
     #main-nav ul {
-        display: flex;
+        
 		align-items: center;
 		flex-wrap: wrap;
         list-style: none;
