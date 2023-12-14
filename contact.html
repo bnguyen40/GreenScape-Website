@@ -1,0 +1,74 @@
+<!--------f-----------
+
+    Project 4
+    Name: Binh Nguyen
+    Date: Dev 13, 2023
+    Description: Project 4
+
+--------------------->
+<!doctype html>
+<html>
+<head>
+	<title>GreenScape</title>
+	<link rel="stylesheet" type="text/css" href="website.css" />
+	<script type="text/javascript" src="website.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav id = "main-nav">
+            <ul>
+              <li><img src="images/GreenScape.png" alt="Logo of the company"></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <form id="orderform" action="index.html">
+                <fieldset>
+                        <div>
+                            <label for="name"> Name</label>
+                            <input id="name" name="name" type="text" autofocus />
+                            <p class="nameError error" id="name_error">* Required field</p>
+                        </div>
+                        <div>
+                            <label for="phone" class="phone">Phone Number</label>
+                            <input id="phone" name="phone" type="tel" />
+                            <p class="phoneError error" id="phone_error">* Required field</p>
+                            <p class="phoneformatError error" id="phoneformat_error">
+								* Invalid Phone Number
+							</p>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" />
+                            <p class="emailError error" id="email_error">* Required field</p>
+                            <p class="emailformatError error" id="emailformat_error">
+								* Invalid email address
+							</p>
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <label for="comments" class="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="8" cols="60"></textarea>
+                </fieldset>
+                <fieldset id="buttons">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Reset</button>
+                </fieldset>
+            </form>
+		</div>
+        <footer id = "end-page">
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+          </footer>
+    </main>
+</body>

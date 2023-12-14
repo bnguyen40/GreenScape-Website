@@ -1,0 +1,185 @@
+/********f************
+    
+    Project 4
+    Name: Binh Nguyen
+    Date: Dev 13, 2023
+    Description: Project 4
+
+*********************/
+html, body, main, p, header, nav, footer, div,
+article, aside, ol, ul, li, h1, h6 {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main-nav {
+	background-color: green;
+	margin: 25px auto 0px;
+	width: 80%;
+	line-height: 18px;
+	text-shadow: #000 1px 1px 3px;
+	box-shadow: 5px 5px 10px #000;
+	border-radius: 5px;
+    font-size: 20px;
+}
+
+    #main-nav ul {
+        display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+        list-style: none;
+        width: 100%;
+    }
+
+        #main-nav ul li {
+            padding: 0px 7px;
+        }
+        
+        #main-nav ul li:first-of-type {
+            margin-right: 60%;
+        }
+
+        #main-nav ul li:hover{
+            background-color: white;
+        }
+
+        #main-nav ul li:hover:first-child{
+            background-color: none;
+        }
+
+
+            #main-nav ul li a:hover{
+                color: green;
+            }
+
+            #main-nav ul li a {
+                text-transform: uppercase;
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                
+            }
+
+/* Contact Page */
+#contact{
+	width:500px;
+	margin: 75px auto;
+	padding: 5px;
+	
+	box-sizing:border-box;
+	box-shadow: 3px 3px 8px #000;
+}
+    
+    #contact div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #contact div label{
+        width: 125px;
+        font-size: 1.2em;
+        display: inline-block;
+        height: 20px;
+        
+    }
+
+    #contact input{
+        width: 150px;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+        height:20px;
+    }
+
+#contact button{
+	width: 100px;
+	background-color: green;
+	color: #FFF;
+	font-size: 1.05em;
+    
+}
+
+#contact .comments{
+    
+    width: 100px;
+    font-size: 1.2em;
+    height: 20px;
+}
+
+/* Services Page */
+#services{
+    width: 80%;
+    margin: 25px auto 0px;
+    font-size: 150%;
+}
+
+article{
+    width: 100%;
+}
+
+    article #image {
+        float: right;
+    }
+
+#maintenance li{
+    padding: 10px;
+}
+
+#maintenance li:first-of-type{
+    padding-top: 20px;
+}
+
+/* Home Page */
+#home{
+    width: 80%;
+    margin: 25px auto 0px;
+    font-size: 150%;
+}
+
+#home article{
+    width: 100%;
+}
+
+    #home article #sale{
+        float: left;
+        padding-right: 15px;
+    }
+
+/* Footer */
+#services #end-page{
+	padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+main #end-page{
+	padding-top: 125px;
+    padding-bottom: 20px;
+}
+
+#end-page{
+	padding-top: 150px;
+}
+
+	#end-page nav ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 15px;
+		list-style: none;
+		white-space: nowrap;
+	}
+		#end-page nav ul li{
+			padding: 4px;
+			padding-right: 6px;
+			padding-left: 6px;
+			border-right: 1px solid #006699;
+			line-height: 5px;
+		}
+
+		#end-page nav ul li:last-of-type{
+			border-right: none;
+		}
+
+		#end-page nav a{
+			text-decoration: none;
+		}
